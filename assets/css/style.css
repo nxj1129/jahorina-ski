@@ -305,13 +305,13 @@ nav ul li a {
   object-fit: cover;
 }
 
-.p-heading {
-  font-family: 'Roboto Slab', sans-serif !important;
+#about .about-descr .p-heading {
+  font-family: 'Roboto Slab', serif;
   font-size: 28px;
   text-align: left;
 }
 
-#about .separator {
+#about .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
