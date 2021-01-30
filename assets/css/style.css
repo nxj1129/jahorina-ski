@@ -14,8 +14,8 @@ svg {
   visibility: hidden;
 }
 
-.loader_bg{
-  background-color: #3298DA;
+.loader_bg {
+  background-color: #3298da;
   overflow: hidden;
   height: 100vh;
   width: 100%;
@@ -46,10 +46,14 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
-
 
 h2 {
   color: #292929;
@@ -72,7 +76,8 @@ a:hover {
   transition: all 0.5s ease-in-out 0s;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #365977;
   text-decoration: underline;
 }
@@ -108,7 +113,19 @@ p {
   color: #fff;
 }
 
-.btn {
+.icon-play{
+  background-image : url(../img/shopping.png);
+  background-size: cover;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+
+.btn{
+  background: #3298da !important;
+}
+
+/* .btn {
   background: #333;
   border: medium none;
   border-radius: 0;
@@ -118,11 +135,11 @@ p {
   line-height: 50px;
   padding: 0 30px;
   text-transform: uppercase;
-}
+} */
 
-.btn:hover, .btn:focus {
+/* .btn:hover, .btn:focus {
   color: #fff;
-}
+} */
 
 .padDiv {
   padding: 30px 20px;
@@ -207,7 +224,7 @@ nav {
 nav ul li {
   float: left;
   margin-right: 15px;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 14px;
   margin-left: 40px;
 }
@@ -218,7 +235,7 @@ nav ul li a {
   display: block;
   font-size: 14px;
   color: #292929;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 500;
   line-height: 16px;
   text-transform: uppercase;
@@ -306,7 +323,7 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 28px;
   text-align: left;
 }
@@ -320,7 +337,8 @@ nav ul li a {
 /*--------------------------------------------------------------
 # Journal
 --------------------------------------------------------------*/
-#journal, #journal-blog {
+#journal,
+#journal-blog {
   height: auto;
   width: 100%;
   background: #f7f7f7;
@@ -577,11 +595,11 @@ blockquote {
   font-size: 13px;
 }
 
-#conquestlink{
+#conquestlink {
   color: #365977;
 }
 
-#conquestlink:hover{
+#conquestlink:hover {
   text-decoration: underline !important;
 }
 
