@@ -332,6 +332,67 @@ nav ul li a {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+  font-family: "Roboto Slab", serif;
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+#services {
+  background: #f7f7f7;
+  position: relative;
+  padding-bottom: 80px;
+  font-family: "Roboto Slab", serif;
+}
+
+.owl-item {
+  float: left;
+}
+
+.services-block span {
+  margin: 10px 0;
+  position: relative;
+  font-size: 13px;
+  color: #292929;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: block;
+}
+
+.services-block .separator {
+  margin: 0;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.services-carousel .owl-stage-outer {
+  overflow: hidden;
+}
+
+.services-carousel .owl-dots {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.services-carousel .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  border: 0;
+  padding: 0 !important;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.services-carousel .owl-dot.active {
+  background-color: #365977;
+}
+
+.owl-nav {
+  display: none;
 }
 
 /*--------------------------------------------------------------
@@ -339,6 +400,7 @@ nav ul li a {
 --------------------------------------------------------------*/
 #journal,
 #journal-blog {
+  font-family: "Roboto Slab", serif;
   height: auto;
   width: 100%;
   background: #f7f7f7;
@@ -389,6 +451,7 @@ nav ul li a {
   margin: 0;
   font-size: 14px;
   line-height: 24px;
+  font-family: "Roboto Slab", serif;
 }
 
 @-webkit-keyframes animate-loading {
